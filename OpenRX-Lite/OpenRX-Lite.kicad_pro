@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.09
         }
       },
       "diff_pair_dimensions": [
@@ -146,7 +146,7 @@
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.09,
         "min_via_annular_width": 0.05,
-        "min_via_diameter": 0.25,
+        "min_via_diameter": 0.2,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
@@ -237,7 +237,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.3,
+          "diameter": 0.45,
           "drill": 0.2
         }
       ],
@@ -693,7 +693,7 @@
         "uuid": "8521861a-4fab-458b-8289-5e2efb91d906"
       }
     ],
-    "used_designators": "FL1,TP5",
+    "used_designators": "AE2",
     "variants": []
   },
   "sheets": [
@@ -703,7 +703,7 @@
     ],
     [
       "d4225140-81df-42e7-abd7-e679e5ab5187",
-      "ESP32-C3 + SX1281 Core"
+      "ESP32-C3 + SX1281 Core (UFL)"
     ]
   ],
   "text_variables": {},

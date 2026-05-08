@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 2.6,
+          "width": 2.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -70,7 +70,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "warning",
         "copper_sliver": "warning",
-        "courtyards_overlap": "warning",
+        "courtyards_overlap": "error",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -146,7 +146,7 @@
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.09,
         "min_via_annular_width": 0.05,
-        "min_via_diameter": 0.3,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
@@ -237,7 +237,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.3,
+          "diameter": 0.45,
           "drill": 0.2
         }
       ],
@@ -693,7 +693,7 @@
         "uuid": "b1c2d3e4-f5a6-7890-bcde-f12345678901"
       }
     ],
-    "used_designators": "TP5",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

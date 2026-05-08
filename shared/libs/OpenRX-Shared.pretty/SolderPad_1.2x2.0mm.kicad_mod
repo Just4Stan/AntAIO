@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -1.7 0)
 		(layer "F.SilkS")
-		(uuid "4216e771-3d5d-4a28-b0f4-375ff2e7ae23")
+		(uuid "86931d04-f58f-40e0-8821-e46d676f51fb")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -19,7 +19,7 @@
 	(property "Value" "SolderPad"
 		(at 0 1.7 0)
 		(layer "F.Fab")
-		(uuid "508d351c-6551-46e9-9471-a249bc1aae62")
+		(uuid "4cfe5795-4f52-42a7-9260-964d5b7a313e")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fbfaedc9-59c3-4fdd-83df-cd97b4d9e3e5")
+		(uuid "4339f8ca-0aaf-4be4-a73f-7b22119da59c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d5983033-04b8-4d21-89e9-8f37833dfa1e")
+		(uuid "e33c63a9-d798-4bb2-bcbf-ec5102be6840")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51,52 +51,57 @@
 	)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
-	(fp_line
-		(start -0.85 -1.25)
-		(end 0.85 -1.25)
+	(fp_rect
+		(start -1.1 -1.35)
+		(end 1.1 1.4)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "f0e841bf-2f0a-4694-b51f-3941e2c95abc")
+		(uuid "a94ce572-8caa-426e-b7d2-acd35f55416b")
 	)
-	(fp_line
-		(start -0.85 1.25)
-		(end -0.85 -1.25)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "094f236f-ddca-4ae4-b4b5-67fcd1da671b")
+	(pad "1" thru_hole circle
+		(at -0.5 -0.7)
+		(size 0.6 0.6)
+		(drill 0.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eef578da-b6ab-41d5-a257-757db4bc67cf")
 	)
-	(fp_line
-		(start 0.85 -1.25)
-		(end 0.85 1.25)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "e84aafd4-c3b1-405e-bd2b-0c7705a128ce")
+	(pad "1" thru_hole circle
+		(at -0.5 0.7)
+		(size 0.6 0.6)
+		(drill 0.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "98cfd759-50bc-458d-af4a-05cca85788df")
 	)
-	(fp_line
-		(start 0.85 1.25)
-		(end -0.85 1.25)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "62738612-b35f-49d3-8f96-cf6ba4f42737")
-	)
-	(pad "1" smd roundrect
+	(pad "1" thru_hole roundrect
 		(at 0 0)
-		(size 1.5 2)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(size 1.9 2.5)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
-		(uuid "3e5f32c4-7b4a-4023-9b82-33a734fa9e54")
+		(uuid "dd77e0e4-b7fc-4249-9d7a-a5dd1ffff40a")
+	)
+	(pad "1" thru_hole circle
+		(at 0.5 -0.7)
+		(size 0.6 0.6)
+		(drill 0.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "13ecf006-4ba8-43d0-b55b-05b77d909da3")
+	)
+	(pad "1" thru_hole circle
+		(at 0.5 0.7)
+		(size 0.6 0.6)
+		(drill 0.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "094190b3-9bfc-4601-bbb2-7963cac18ad4")
 	)
 	(embedded_fonts no)
 )

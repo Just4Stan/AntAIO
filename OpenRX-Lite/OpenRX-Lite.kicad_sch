@@ -20,7 +20,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "d4225140-81df-42e7-abd7-e679e5ab5187")
-		(property "Sheetname" "ESP32-C3 + SX1281 Core"
+		(property "Sheetname" "ESP32-C3 + SX1281 Core (UFL)"
 			(at 25.4 24.6888 0)
 			(show_name no)
 			(do_not_autoplace no)

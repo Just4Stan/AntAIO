@@ -1901,7 +1901,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 31.75 0)
+			(at 17.018 43.434 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1911,7 +1911,7 @@
 			)
 		)
 		(property "Value" "LR1121IMLTRT"
-			(at 0 -43.18 0)
+			(at 0.762 13.716 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1920,8 +1920,8 @@
 				)
 			)
 		)
-		(property "Footprint" "OpenRX-Shared:QFN-32_L5.0-W5.0-P0.50-BL-EP3.7"
-			(at 0 -34.29 0)
+		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm"
+			(at -1.778 -9.144 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1954,7 +1954,7 @@
 			)
 		)
 		(property "LCSC Part" "C7498014"
-			(at 0 -36.83 0)
+			(at -2.54 -11.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -1966,8 +1966,8 @@
 		)
 		(symbol "LR1121IMLTRT_0_1"
 			(rectangle
-				(start -19.05 24.13)
-				(end 19.05 -35.56)
+				(start -19.05 41.91)
+				(end 19.05 -40.64)
 				(stroke
 					(width 0)
 					(type default)
@@ -1976,116 +1976,8 @@
 					(type background)
 				)
 			)
-			(pin unspecified line
-				(at 21.59 21.59 180)
-				(length 2.54)
-				(name "VR_PA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -21.59 20.32 0)
-				(length 2.54)
-				(name "VBAT_RF"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -21.59 5.08 0)
-				(length 2.54)
-				(name "VTCXO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -21.59 -2.54 0)
-				(length 2.54)
-				(name "XTA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -21.59 -5.08 0)
-				(length 2.54)
-				(name "XTB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -21.59 -13.97 0)
-				(length 2.54)
-				(name "NRESET"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 21.59 -5.08 180)
+			(pin bidirectional line
+				(at -21.59 -31.75 0)
 				(length 2.54)
 				(name "32k_P/DIO11"
 					(effects
@@ -2102,8 +1994,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 21.59 -2.54 180)
+			(pin bidirectional line
+				(at -21.59 -29.21 0)
 				(length 2.54)
 				(name "32k_N/DIO10"
 					(effects
@@ -2120,8 +2012,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -21.59 -16.51 0)
+			(pin bidirectional line
+				(at -21.59 -26.67 0)
 				(length 2.54)
 				(name "DIO9"
 					(effects
@@ -2138,8 +2030,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 21.59 0 180)
+			(pin bidirectional line
+				(at -21.59 -24.13 0)
 				(length 2.54)
 				(name "DIO8"
 					(effects
@@ -2156,8 +2048,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -21.59 -31.75 0)
+			(pin bidirectional line
+				(at -21.59 -21.59 0)
 				(length 2.54)
 				(name "DIO7"
 					(effects
@@ -2174,26 +2066,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -21.59 12.7 0)
-				(length 2.54)
-				(name "VREG"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 2.54 -38.1 90)
+			(pin power_in line
+				(at 0 -43.18 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -2210,98 +2084,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 21.59 15.24 180)
-				(length 2.54)
-				(name "DCC_SW"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 21.59 11.43 180)
-				(length 2.54)
-				(name "VBAT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 21.59 -12.7 180)
-				(length 2.54)
-				(name "DNC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 21.59 -10.16 180)
-				(length 2.54)
-				(name "DNC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 21.59 -7.62 180)
-				(length 2.54)
-				(name "DNC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 21.59 2.54 180)
+			(pin bidirectional line
+				(at -21.59 -16.51 0)
 				(length 2.54)
 				(name "DIO6"
 					(effects
@@ -2318,8 +2102,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 21.59 5.08 180)
+			(pin bidirectional line
+				(at -21.59 -13.97 0)
 				(length 2.54)
 				(name "DIO5"
 					(effects
@@ -2336,8 +2120,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -21.59 -19.05 0)
+			(pin bidirectional line
+				(at -21.59 -11.43 0)
 				(length 2.54)
 				(name "DIO4"
 					(effects
@@ -2354,8 +2138,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -21.59 -21.59 0)
+			(pin bidirectional line
+				(at -21.59 -8.89 0)
 				(length 2.54)
 				(name "DIO3"
 					(effects
@@ -2372,8 +2156,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -21.59 -24.13 0)
+			(pin bidirectional line
+				(at -21.59 -6.35 0)
 				(length 2.54)
 				(name "DIO2"
 					(effects
@@ -2390,8 +2174,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -21.59 -26.67 0)
+			(pin bidirectional line
+				(at -21.59 -3.81 0)
 				(length 2.54)
 				(name "DIO1"
 					(effects
@@ -2408,8 +2192,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -21.59 -29.21 0)
+			(pin bidirectional line
+				(at -21.59 -1.27 0)
 				(length 2.54)
 				(name "DIO0/BUSY"
 					(effects
@@ -2426,8 +2210,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 21.59 -21.59 180)
+			(pin bidirectional line
+				(at 21.59 0 180)
 				(length 2.54)
 				(name "RFIO_HF"
 					(effects
@@ -2445,43 +2229,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 21.59 -17.78 180)
-				(length 2.54)
-				(name "DNC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 21.59 -15.24 180)
-				(length 2.54)
-				(name "DNC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "28"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 21.59 -31.75 180)
+				(at 21.59 -36.83 180)
 				(length 2.54)
 				(name "RFI_N_LF0"
 					(effects
@@ -2499,7 +2247,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 21.59 -29.21 180)
+				(at 21.59 -34.29 180)
 				(length 2.54)
 				(name "RFI_P_LF0"
 					(effects
@@ -2517,7 +2265,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 21.59 -26.67 180)
+				(at 21.59 -31.75 180)
 				(length 2.54)
 				(name "RFO_LP_LF"
 					(effects
@@ -2535,7 +2283,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 21.59 -24.13 180)
+				(at 21.59 -29.21 180)
 				(length 2.54)
 				(name "RFO_HP_LF"
 					(effects
@@ -2552,9 +2300,10 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -2.54 -38.1 90)
+			(pin power_in line
+				(at 0 -43.18 90)
 				(length 2.54)
+				(hide yes)
 				(name "EP"
 					(effects
 						(font
@@ -2563,6 +2312,260 @@
 					)
 				)
 				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LR1121IMLTRT_1_1"
+			(pin power_out line
+				(at -21.59 33.02 0)
+				(length 2.54)
+				(name "VR_PA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -10.16 44.45 270)
+				(length 2.54)
+				(name "VBAT_RF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -21.59 25.4 0)
+				(length 2.54)
+				(name "VTCXO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -21.59 13.97 0)
+				(length 2.54)
+				(name "XTA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -21.59 6.35 0)
+				(length 2.54)
+				(name "XTB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -21.59 -35.56 0)
+				(length 2.54)
+				(name "NRESET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 21.59 33.02 180)
+				(length 2.54)
+				(name "VREG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 21.59 25.4 180)
+				(length 2.54)
+				(name "DCC_SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 44.45 270)
+				(length 2.54)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 21.59 17.78 180)
+				(length 2.54)
+				(name "DNC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 21.59 15.24 180)
+				(length 2.54)
+				(name "DNC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 21.59 12.7 180)
+				(length 2.54)
+				(name "DNC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 21.59 10.16 180)
+				(length 2.54)
+				(name "DNC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 21.59 7.62 180)
+				(length 2.54)
+				(name "DNC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3468,6 +3471,314 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "SKY13373-460LF"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 6.604 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OpenRX-Shared:QFN-12_EP_2x2_Pitch0.5mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SKY13373-460LF_1_1"
+			(rectangle
+				(start -8.89 8.89)
+				(end 8.89 -8.89)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at -2.54 -11.43 90)
+				(length 2.54)
+				(name "J1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -11.43 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 2.54 -11.43 90)
+				(length 2.54)
+				(name "J3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 11.43 -2.54 180)
+				(length 2.54)
+				(name "V1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 11.43 0 180)
+				(length 2.54)
+				(name "V2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 11.43 2.54 180)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 11.43 270)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 11.43 270)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -2.54 11.43 270)
+				(length 2.54)
+				(name "J2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 2.54 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -11.43 0 0)
+				(length 2.54)
+				(name "RFC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 -2.54 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -11.43 -7.62 0)
+				(length 2.54)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "SKY13414-485LF"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4204,7 +4515,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 24.13 0)
+			(at 10.922 21.082 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4214,7 +4525,7 @@
 			)
 		)
 		(property "Value" "SX1281IMLTRT"
-			(at 0.254 21.336 0)
+			(at 16.764 18.288 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4298,7 +4609,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -17.78 11.43 0)
+				(at -17.78 13.97 0)
 				(length 2.54)
 				(name "VDD_IN"
 					(effects
@@ -4460,7 +4771,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -17.78 8.89 0)
+				(at -3.81 19.05 270)
 				(length 2.54)
 				(name "VBAT_IO"
 					(effects
@@ -4478,7 +4789,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -17.78 1.27 0)
+				(at -17.78 3.81 0)
 				(length 2.54)
 				(name "DCC_FB"
 					(effects
@@ -4514,7 +4825,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -17.78 3.81 0)
+				(at -17.78 1.27 0)
 				(length 2.54)
 				(name "DCC_SW"
 					(effects
@@ -4532,7 +4843,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -17.78 13.97 0)
+				(at -1.27 19.05 270)
 				(length 2.54)
 				(name "VBAT"
 					(effects

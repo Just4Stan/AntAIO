@@ -1,31 +1,152 @@
-(module easyeda2kicad:CRYSTAL-SMD_4P-L1.6-W1.2-BL (layer F.Cu) (tedit 5DC5F6A4)
+(footprint "CRYSTAL-SMD_4P-L1.6-W1.2-BL"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.4 0)
+		(layer "F.SilkS")
+		(uuid "26206d5e-d2e1-4a17-88f0-c65a546588fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CRYSTAL-SMD_4P-L1.6-W1.2-BL"
+		(at 0 4.4 0)
+		(layer "F.Fab")
+		(uuid "3c013ebc-b702-4e45-9d8f-f873965d5ecc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51dfd5eb-51bf-4c27-ba62-2a04a137e1a0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "247cea17-7139-4680-882d-5e1cc1f14fc5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
 	(attr smd)
-	(fp_text reference REF** (at 0 -4.4) (layer F.SilkS)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.05 0.2)
+		(end -1.05 0.85)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "011211c1-7eaf-4ff1-a7dc-abd41c76e4fe")
 	)
-	(fp_text value CRYSTAL-SMD_4P-L1.6-W1.2-BL (at 0 4.4) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_line
+		(start -1.05 0.85)
+		(end -0.35 0.85)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "982af1cb-db2d-42ca-987b-50835449ea59")
 	)
-	(fp_text user %R (at 0 0) (layer F.Fab)
-		(effects (font (size 1 1) (thickness 0.15)))
+	(fp_circle
+		(center -0.6 0.45)
+		(end -0.5 0.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "ed09bdbc-e8e0-4308-ae85-a9db8455028c")
 	)
-	(fp_line (start -1.35 0.50) (end -1.35 0.50) (layer F.SilkS) (width 0.15))
-	(fp_line (start -1.35 0.50) (end -1.35 1.15) (layer F.SilkS) (width 0.15))
-	(fp_line (start -1.35 1.15) (end -0.65 1.15) (layer F.SilkS) (width 0.15))
-	(fp_line (start -1.10 -0.90) (end -1.10 0.85) (layer F.SilkS) (width 0.15))
-	(fp_line (start -1.10 0.85) (end -1.10 0.90) (layer F.SilkS) (width 0.15))
-	(fp_line (start -1.10 0.90) (end 1.10 0.90) (layer F.SilkS) (width 0.15))
-	(fp_line (start 1.10 0.90) (end 1.10 -0.90) (layer F.SilkS) (width 0.15))
-	(fp_line (start 1.10 -0.90) (end -1.10 -0.90) (layer F.SilkS) (width 0.15))
-	(pad 4 smd rect (at -0.55 -0.40 0.00) (size 0.73 0.60) (layers F.Cu F.Paste F.Mask))
-	(pad 3 smd rect (at 0.55 -0.40 0.00) (size 0.73 0.60) (layers F.Cu F.Paste F.Mask))
-	(pad 2 smd rect (at 0.55 0.40 0.00) (size 0.73 0.60) (layers F.Cu F.Paste F.Mask))
-	(pad 1 smd rect (at -0.55 0.40 0.00) (size 0.73 0.60) (layers F.Cu F.Paste F.Mask))
-	(fp_circle (center -0.80 0.60) (end -0.77 0.60) (layer F.Fab) (width 0.06))
-	(fp_circle (center -0.60 0.45) (end -0.50 0.45) (layer Cmts.User) (width 0.20))
+	(fp_rect
+		(start -1.05 -0.85)
+		(end 1.05 0.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "05707da1-e7c5-4ab7-a5c0-4aba150ec0b0")
+	)
+	(fp_circle
+		(center -0.8 0.6)
+		(end -0.77 0.6)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5fb4c040-1d21-4d60-a5a0-fc65f12c3d1e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ab188ddb-9685-4e43-abf0-ddcec36928ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.55 0.4)
+		(size 0.73 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "20cea365-1b57-40f5-af6f-7e61ff4c99b0")
+	)
+	(pad "2" smd rect
+		(at 0.55 0.4)
+		(size 0.73 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cc0d3e57-0c15-4d58-813a-882b3b65ccd7")
+	)
+	(pad "3" smd rect
+		(at 0.55 -0.4)
+		(size 0.73 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e4f221c6-084e-4dce-a366-fe4cdd1e27d9")
+	)
+	(pad "4" smd rect
+		(at -0.55 -0.4)
+		(size 0.73 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "de6a325d-6d86-4fd9-ad85-eca14c3bfaa4")
+	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/../shared/libs/OpenRX-Shared.3dshapes/CRYSTAL-SMD_4P-L1.6-W1.2-BL.wrl"
-		(offset (xyz 0.000 -0.000 -0.000))
-		(scale (xyz 1 1 1))
-		(rotate (xyz 0 0 0))
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
