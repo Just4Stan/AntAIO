@@ -45,6 +45,9 @@ verification/bom/jlc-quote-*.md
 __pycache__/
 *.pyc
 
+# Internal notes (not for public repo)
+docs/
+
 # Claude
 .claude/
 CLAUDE.md
