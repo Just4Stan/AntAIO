@@ -9,8 +9,6 @@ Open-source **ExpressLRS (ELRS) receiver** line for FPV/RC. Four board variants 
 | <img src="images/openrx-lite-back.png" width="200" alt="OpenRX-Lite back" /> | <img src="images/openrx-lite-ufl-back.png" width="200" alt="OpenRX-Lite-UFL back" /> | <img src="images/openrx-mono-back.png" width="200" alt="OpenRX-Mono back" /> | <img src="images/openrx-gemini-back.png" width="200" alt="OpenRX-Gemini back" /> |
 | SX1281, 2.4 GHz, chip antenna | SX1281, 2.4 GHz, U.FL | LR1121, dual-band, U.FL | 2× LR1121, dual-radio, 2× U.FL |
 
-> 📖 This README is the canonical board reference. Per-sheet engineering rationale (mirrored from the on-canvas KiCad comments) is in [`DESIGN_NOTES.md`](DESIGN_NOTES.md); each variant also has its own `DESIGN.md`. Build, flashing, and bring-up notes belong in the project wiki.
-
 ## Variants
 
 | Variant | Radio IC | Band | ELRS antenna | RF front-end | Size | Layers |
@@ -108,10 +106,6 @@ Upstream ExpressLRS targets (`shared/elrs-targets/`):
 | Gemini | OpenRX Gemini XrossBand RX | `Unified_ESP32C3_LR1121_RX` | esp32-c3 | UART · Wi-Fi · Betaflight |
 
 Minimum ExpressLRS version **3.5.0**. Hardware pin maps live in the per-variant target JSON.
-
-## Manufacturing
-
-Fab outputs live under each variant's `export/` or `production/` directory (JLCPCB BOM, designator, and position CSVs plus gerber ZIPs); these are generated with the KiCad Fabrication Toolkit and are gitignored as re-exportable. Prefer LCSC basic parts for assembly.
 
 ## License
 
