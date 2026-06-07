@@ -776,7 +776,17 @@
       "Clock"
     ]
   ],
-  "text_variables": {},
+  "text_variables": {
+    "DOC_FIRMWARE": "ExpressLRS",
+    "DOC_HANDLE": "openrx-gemini",
+    "DOC_INPUT": "5 V solder pad",
+    "DOC_MCU": "ESP32-C3 (QFN-32)",
+    "DOC_NAME": "OpenRX-Gemini",
+    "DOC_PROTOCOL": "CRSF",
+    "DOC_RATING": "5 V pad in \u2192 3.3 V TLV75533 LDO; dual-radio sub-GHz + 2.4 GHz, up to 22 dBm/radio",
+    "DOC_TAGLINE": "ExpressLRS Xrossband receiver \u2014 dual LR1121, 2\u00d7 U.FL, 6-layer",
+    "DOC_VARIANT": "Dual-radio U.FL"
+  },
   "tuning_profiles": {
     "meta": {
       "version": 0
