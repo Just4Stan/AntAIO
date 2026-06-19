@@ -620,9 +620,9 @@
 		)
 		(uuid "81e0b990-3eff-4837-96c6-f3cdfd976bb6")
 	)
-	(text "Single ELRS radio instance"
+	(text "AntAIO for antweight battlebots"
 		(exclude_from_sim no)
-		(at 328.93 276.86 0)
+		(at 330.962 276.86 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -634,7 +634,7 @@
 		(uuid "99f2b1ae-0715-4c8e-978a-7d2d7006b553")
 	)
 	(sheet
-		(at 25.4 25.4)
+		(at 127 79.375)
 		(size 66.04 113.03)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -649,7 +649,7 @@
 		)
 		(uuid "d4225140-81df-42e7-abd7-e679e5ab5187")
 		(property "Sheetname" "ESP32-C3 + SX1281 Core (UFL)"
-			(at 25.4 24.6888 0)
+			(at 127 78.6638 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -660,7 +660,7 @@
 			)
 		)
 		(property "Sheetfile" "esp32c3_sx1281_lite.kicad_sch"
-			(at 25.4 141.478 0)
+			(at 127 195.453 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
