@@ -16,7 +16,7 @@ the **OpenRX-Lite** ELRS core (ESP32-C3 + SX1281, 2.4 GHz) and forked from
 > safety-critical issues (uncommanded drive-motor motion at power-up, and the
 > programming interface shares pins with the motor outputs). It drives combat-robot
 > motors **including a weapon** — do not build or power it without reading the
-> review first. See **[OpenRX-Lite/REVIEW.md](OpenRX-Lite/REVIEW.md)** (full design
+> review first. See **[hardware/REVIEW.md](hardware/REVIEW.md)** (full design
 > review) and **[CHANGELIST.md](CHANGELIST.md)** (verified to-do list).
 
 ## What it is
@@ -118,21 +118,22 @@ firmware layered on top (separate; not in this hardware repo).
 
 ## Repository
 
-This is a fork of `incutec-hw/OpenRX`; the upstream four-variant ELRS receiver line
-is retained, and **OpenRX-Lite** is the board extended into AntAIO.
+AntAIO began as a fork of [`incutec-hw/OpenRX`](https://github.com/incutec-hw/OpenRX)
+— the **OpenRX-Lite** ELRS core (ESP32-C3 + SX1281) extended into a combat-robot
+all-in-one. The other OpenRX receiver variants are not part of this repo.
 
 ```
 AntAIO/
-├── OpenRX-Lite/          AntAIO board (this project): ELRS RX + IMU + triple ESC
-│   ├── OpenRX-Lite.kicad_{pro,sch,pcb}
-│   ├── esp32c3_sx1281_lite.kicad_sch
+├── hardware/             AntAIO board: ELRS RX + IMU + triple brushed ESC
+│   ├── AntAIO.kicad_{pro,sch,pcb}
+│   ├── esp32c3_sx1281_lite.kicad_sch   ELRS core sub-sheet
 │   ├── REVIEW.md         full design review (pin/datasheet/electrical)
 │   └── DESIGN.md
-├── OpenRX-Lite-UFL/ · OpenRX-Mono/ · OpenRX-Gemini/   upstream OpenRX RX variants
 ├── shared/libs/          project-local KiCad symbols / footprints / 3D models
+├── shared/elrs-targets/  ExpressLRS hardware-target JSON
 ├── datasheets/common/    local datasheet cache
 ├── images/               board renders
-└── CHANGELIST.md         verified open / done items for the AntAIO conversion
+└── CHANGELIST.md         verified open / done items
 ```
 
 KiCad 9/10; **project-local libraries only** (no global dependencies). Board renders
