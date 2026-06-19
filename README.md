@@ -2,7 +2,7 @@
 
 Open-source **antweight / beetleweight combat-robot all-in-one** controller — an
 ExpressLRS receiver, a 6-axis IMU, and a **triple brushed-DC ESC** on one tiny
-board, in the spirit of the [Malenki Nano](https://www.malenki.co.uk/). Built on
+board, in the spirit of the [Malenki Nano](https://turnabot.com/products/malenki-nano-integrated-6-channel-triple-electronic-speed-controller-receiver-combo). Built on
 the **OpenRX-Lite** ELRS core (ESP32-C3 + SX1281, 2.4 GHz) and forked from
 [`incutec-hw/OpenRX`](https://github.com/incutec-hw/OpenRX).
 
@@ -21,7 +21,7 @@ the **OpenRX-Lite** ELRS core (ESP32-C3 + SX1281, 2.4 GHz) and forked from
 
 ## What it is
 
-A single ~32 × 32 mm, 6-layer board that replaces the usual *RX + 2 drive ESCs +
+A single **10.00 × 21.50 mm**, 6-layer board that replaces the usual *RX + 2 drive ESCs +
 weapon ESC + gyro* stack of an antweight robot with one MCU-driven combo:
 
 - **Radio link** — ExpressLRS 2.4 GHz (Semtech SX1281) for RC control + telemetry,
@@ -68,7 +68,7 @@ and the three motor PWM outputs all run on-chip.
 | **Reverse protection** | **AON7407** P-FET (Q2) | on +BATT |
 | **Status LED** | WS2812B (D1) | addressable RGB |
 | **Battery** | **1–2S LiPo (≤ 8.4 V)** | DRV8212 VM is 12 V abs-max — **2S is the hard ceiling; 3S destroys the drivers** |
-| **Board** | ~32 × 32 mm envelope, 6-layer | components both sides |
+| **Board** | 10.00 × 21.50 mm, 6-layer | components both sides |
 
 ## I/O pads
 
